@@ -1,0 +1,19 @@
+The `public/favicon.ico` file is typically a small icon file used as the favicon for a website. It's not a code file that requires implementation, but rather an image file that should be placed in the `public` directory of your Next.js project.
+
+As this is an image file, I can't generate or provide the actual binary content. However, I can explain how it should be used in the context of your FitTrack MVP:
+
+1. Create or obtain a favicon image file named `favicon.ico`.
+2. Place this file in the `public` directory of your Next.js project.
+3. Next.js will automatically serve this file at the root of your website.
+
+No additional code is required to implement or use the favicon. The browser will automatically request and display the favicon from the `/favicon.ico` path.
+
+To ensure the favicon is properly recognized by all browsers, you may want to include a link tag in your `_document.js` or `_app.js` file:
+
+```jsx
+<link rel="icon" href="/favicon.ico" />
+```
+
+This link tag is typically included by default in Next.js projects, so you may not need to add it manually.
+
+Remember to create a high-quality favicon that represents your FitTrack brand well, as it will be displayed in browser tabs and bookmarks.
